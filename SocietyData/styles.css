@@ -1,0 +1,42 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  .nav-list a {
+    color: white;
+    padding: 0 1rem;
+    text-decoration: none;
+  }
+  
+  .nav-list a:hover {
+    color: #f8961e;
+  }
+  
+  .hero-section img {
+    max-height: 500px;
+    object-fit: cover;
+  }
+  
+  .service-box {
+    padding: 2rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+  }
+  
+  .service-box:hover {
+    transform: scale(1.05);
+  }
+  
+  .social-icon {
+    width: 24px;
+    height: 24px;
+    margin-left: 1rem;
+  }
+  
+  .footer p {
+    margin: 0;
+  }
+  
